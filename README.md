@@ -32,5 +32,5 @@ go get github.com/go-chi/chi/v5
 ### Go tidy
 
 ```sh
-go tidy
+go mod tidy
 ```
