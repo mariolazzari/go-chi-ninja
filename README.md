@@ -34,3 +34,12 @@ go get github.com/go-chi/chi/v5
 ```sh
 go mod tidy
 ```
+
+### Redis
+
+Go Redix [client](https://github.com/redis/go-redis)
+
+```sh
+go get github.com/redis/go-redis/v9
+docker run -p 6379:6379 redis:latest 
+```
